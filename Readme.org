@@ -1,0 +1,22 @@
+#+DATE: Thursday, Dec 01 2016
+#+TITLE: a dupe CV router based on the contents
+#+DESCRIPTION: filter cv for interesting interviews
+
+* Motivations
+  #+BEGIN_QUOTE
+   the cv of a person explains a lot --randomthought
+  #+END_QUOTE
+
+* the idea is 
+  - there will be a giant parser like lynis
+  - the parser will go via cv based on the rules and grade the cv
+  - rules can be defined in multiple ways
+    - human friendly grammar
+    - simple yaml rules
+  - tags are used/appended marking the quality
+  - Abbreviated gist would be concluded at the end
+
+* Starting with
+  - basic tagging
+  - 
+
