@@ -9,10 +9,14 @@
 
 * the idea is 
   - there will be a giant parser like lynis
-  - the parser will go via cv based on the rules and grade the cv
+  - the parser will go via cv based on the rules and then it will grade the cv
   - rules can be defined in multiple ways
     - human friendly grammar
-    - simple yaml rules
+      #+BEGIN_EXAMPLE
+      kick if @hotmail.com 
+      #+END_EXAMPLE
+    - simple yaml rules #brainstroming
+      
   - tags are used/appended marking the quality
   - Abbreviated gist would be concluded at the end
 
